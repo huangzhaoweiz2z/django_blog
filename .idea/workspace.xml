@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="024f21f7-2d46-4b3d-968e-476f6220ff14" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/django_blog_tutorial-master.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article/forms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article/migrations/0002_auto_20180830_1759.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article/migrations/0003_articlepost_total_views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article/migrations/0004_auto_20190129_1839.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article/migrations/0005_articlepost_tags.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article/migrations/0006_articlepost_avatar.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article/migrations/0007_auto_20190226_1939.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article/migrations/0008_auto_20190226_1942.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article/migrations/0009_articlepost_likes.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article/templatetags/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article/templatetags/my_filters_and_tags.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../comment/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../comment/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../comment/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../comment/forms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../comment/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../comment/migrations/0002_auto_20190318_2051.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../comment/migrations/0003_auto_20190502_2043.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../comment/migrations/0004_auto_20190502_2050.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../comment/migrations/0005_auto_20190503_1657.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../comment/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../comment/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../comment/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../comment/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../comment/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../logs/debug.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../logs/debug.log.2019-07-17" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../md/01.前言.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../md/02.教程的开发环境.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../md/03.创建app.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../md/04.编写Model.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../md/05.View视图初探.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../md/06.View及Template.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../md/07.使用Bootstrap改写模板.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../md/08.编写文章详情页面.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../md/09.使用Markdown书写文章.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../md/10.发布新的文章.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../md/11.删除文章.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../md/12.更新文章.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../md/13.用户的登录和退出.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../md/14.用户的注册.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../md/15.用户的删除.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../md/16.重置用户密码.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../md/17.拓展用户信息.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../md/18.上传头像.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../md/19.文章分页.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../md/20.浏览量.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../md/21.最热文章.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../md/22.搜索文章.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../md/23.文章目录.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../md/24.评论.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../md/25.课间休息.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../md/26.基于类的视图.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../md/27.文章栏目.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../md/28.文章标签.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../md/29.文章标题图.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../md/30.富文本编辑器.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../md/31.四个重要的小功能.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../md/32.多级评论.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../md/33.消息通知.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../md/34.锚点定位.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../md/35.第三方登录.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../md/36.自动化测试.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../md/37.日志记录.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../md/38.模板过滤器和标签.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../md/39.点赞功能.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../md/40.将项目部署到云服务器.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../md/41.期末总结.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../md/42.小功能集合贴.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../md/43.读者常见问题.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my_blog/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my_blog/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my_blog/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my_blog/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notice/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notice/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notice/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notice/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notice/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notice/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notice/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notice/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/bootstrap/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/bootstrap/css/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/bootstrap/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/bootstrap/css/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/bootstrap/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/bootstrap/css/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/bootstrap/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/bootstrap/css/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/bootstrap/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/bootstrap/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/bootstrap/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/bootstrap/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/bootstrap/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/bootstrap/js/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/bootstrap/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/bootstrap/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/bootstrap/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/bootstrap/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/bootstrap/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/bootstrap/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/ckeditor/ckeditor/plugins/prism/Creating and Editing Code Snippets.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/ckeditor/ckeditor/plugins/prism/Installation Guide.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/ckeditor/ckeditor/plugins/prism/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/ckeditor/ckeditor/plugins/prism/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/ckeditor/ckeditor/plugins/prism/plugin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/csrf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/jquery/jquery-3.3.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/layer/layer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/layer/mobile/layer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/layer/mobile/need/layer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/layer/theme/default/icon-ext.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/layer/theme/default/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/layer/theme/default/layer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/layer/theme/default/loading-0.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/layer/theme/default/loading-1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/layer/theme/default/loading-2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/md_css/monokai.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/popper/popper-1.14.4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/prism/prism.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/sticky_sidebar/jquery.sticky-sidebar.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../templates/account/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../templates/article/create.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../templates/article/create_by_class_view.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../templates/article/detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../templates/article/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../templates/article/tag_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../templates/article/update.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../templates/back_to_top_func.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../templates/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../templates/comment/reply.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../templates/footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../templates/header.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../templates/notice/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../templates/userprofile/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../templates/userprofile/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../templates/userprofile/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../userprofile/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../userprofile/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../userprofile/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../userprofile/forms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../userprofile/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../userprofile/migrations/0002_auto_20181227_2041.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../userprofile/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../userprofile/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../userprofile/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../userprofile/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../userprofile/views.py" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my_blog/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="22" column="64" selection-start-line="22" selection-start-column="64" selection-end-line="22" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/my_blog/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/templates/header.html" />
+        <option value="$PROJECT_DIR$/my_blog/settings.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="django_blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="django_blog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="django_blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="django_blog" type="462c0819:PsiDirectoryNode" />
+              <item name="my_blog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="django_blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="django_blog" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.manage">
+    <configuration name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="django_blog_tutorial-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="django_blog_tutorial-master" type="Python.DjangoServer" factoryName="Django server">
+      <module name="django_blog_tutorial-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.manage" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="024f21f7-2d46-4b3d-968e-476f6220ff14" name="Default Changelist" comment="" />
+      <created>1577345067230</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577345067230</updated>
+      <workItem from="1577345069980" duration="1705000" />
+      <workItem from="1577408970865" duration="3215000" />
+      <workItem from="1577593189555" duration="391000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="5311000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25037822" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.29787233" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50075644" side_tool="true" weight="0.29787233" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/django_blog_tutorial_master$manage.coverage" NAME="manage Coverage Results" MODIFIED="1577345148448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/article/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/md/40.将项目部署到云服务器.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md" />
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#22#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_blog/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="22" column="64" selection-start-line="22" selection-start-column="64" selection-end-line="22" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-521">
+          <caret line="7" column="51" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_blog/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
