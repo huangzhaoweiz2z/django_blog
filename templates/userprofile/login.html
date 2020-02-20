@@ -1,0 +1,46 @@
+{% extends "base.html" %} {% load staticfiles %}
+{% block title %} 登录 {% endblock title %}
+{% block content %}
+
+    <div class="container">
+        <div style="text-align: center" class="container-fluid mt-4">
+            <h4 class="alert alert-info">登录</h4>
+        </div>
+
+
+
+
+
+            <div class="row justify-content-center" >
+                <form method="post" action="." style="min-width: 400px">
+                    {% csrf_token %}
+                    <!-- 账号 -->
+                    <div class="form-group">
+                        <label for="username">账号</label>
+                        <input type="text" class="form-control" id="username" name="username">
+                        <small class="form-text text-muted ml-1">
+                            还没有账号？
+                            <a href="{% url "userprofile:register" %}" style="color: cornflowerblue; ">
+                                注册新账号
+                            </a>
+                        </small>
+
+
+                    </div>
+                    <!-- 密码 -->
+                    <div class="form-group">
+                        <label for="password">密码</label>
+                        <input type="password" class="form-control" id="password" name="password">
+                        <small class="form-text text-muted ml-1">
+                            <a class="secondaryAction layui-text" href="{% url "password_reset" %}">
+                                忘记密码?
+                            </a>
+                        </small>
+                    </div>
+                    <!-- 提交按钮 -->
+                    <button type="submit" class="btn btn-primary">确认</button>
+                </form>
+            </div>
+
+    </div>
+{% endblock content %}
